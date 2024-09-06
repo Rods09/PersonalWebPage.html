@@ -1,0 +1,107 @@
+.header{
+    background-color: wheat;
+}
+
+
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+}
+.home .homeContent{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 4rem;
+}
+.home .homeContent h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 7rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    line-height: 7rem;
+    color: white;
+}
+.home .homeContent p{
+    font-size: 1.8rem;
+    line-height: 2;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.home img{
+    border-radius: 200px;
+    border: 10px solid white;
+}
+
+.section .home {
+    padding: 2rem 7%;
+}
+
+.introduction .introductionContent h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    line-height: 7rem;
+    color: black;
+}
+
+.introduction .introductionContent p{
+    font-size: 1.8rem;
+    line-height: 2;
+    margin-bottom: 2rem;
+    color: black;
+    font-style: italic;
+}
+
+.introduction {
+    width: 100vw;  /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    position: relative; /* Ensures it stays within the bounds of the viewport */
+}
+
+.introduction .introductionContent {
+    background: url('white.jpg') no-repeat center center; /* Centers the background image */
+    background-size: cover; /* Ensures the background image covers the entire section */
+    width: 100%;
+    height: 100%;
+    position: absolute; /* Ensures it fills the parent container */
+    top: 0;
+    left: 0;
+}
+
+.info .infoContent h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    line-height: 7rem;
+    color: black;
+    text-align: center;
+}
+
+.info .infoContent p{
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+    color: black;
+}
+.info {
+    width: 100vw;  /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    position: relative; /* Ensures it stays within the bounds of the viewport */
+}
+
+.info .infoContent {
+    background: url('white.jpg') no-repeat center center; /* Centers the background image */
+    background-size: cover; /* Ensures the background image covers the entire section */
+    width: 100%;
+    height: 100%;
+    position: absolute; /* Ensures it fills the parent container */
+    top: 0;
+    left: 0;
+}
